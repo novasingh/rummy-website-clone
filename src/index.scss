@@ -231,6 +231,57 @@ body{
   }
 }
 
+//Features section
+.features-section{
+  padding: 50px 0px 50px 0;
+  h2{
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .cards{
+    .card-inner{
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #EFEFEF;
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      margin: 0px 20px 0px 0px;
+      margin-right: 20px;
+      margin-left: 0px;
+      margin-bottom: 10px;
+      padding: 40px 40px 40px 40px;
+      font-family: "Questrial", Sans-serif;
+      &:hover{
+        border-color: #FF6635;
+      }
+      h3{
+        font-size: 21px;
+        font-weight: 600;
+      }
+
+      p{
+        font-size: 14px;
+        line-height: 1.8em;
+        letter-spacing: 0.3px;
+      }
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .w-50{
+      width: 100% !important;
+    }
+  }
+  .w-30{
+    width: 30%;
+  }
+  @media screen and (max-width:1024px) {
+    .w-30{
+      width: 100% !important;
+    }
+  }
+}
+
 // Footer Styling
 .footer-download-app{
   background-color: #000000;
