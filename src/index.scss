@@ -206,7 +206,29 @@ body{
       }
     }
   }
- 
+}
+
+// Card Section 
+.card-section{
+  padding: 100px 0px 100px 0;
+  background-color: #000000;
+
+  &--box{
+    background-color: #FFFFFF1F;
+    margin: 5px;
+    padding: 50px;
+    h1{
+      color: white;
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    p{
+      color:#E1E1E1;
+      font-size: 14px;
+      line-height: 1.8em;
+    }
+  }
 }
 
 // Footer Styling
