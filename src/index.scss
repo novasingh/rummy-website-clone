@@ -1,0 +1,215 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+  background-color: #f6f6f6;
+  font-family: "Questrial", sans-serif;
+}
+
+// Header Style
+.rummy-wrapper{
+  .header{
+    background-color: #000000;
+    &--top-bar{
+      font-size: 14px;
+      border-bottom: 1px solid #FFFFFF30;
+
+      &--fb-icon{
+        cursor: pointer;
+        color:white;
+        transition: .3s all ease-in-out;
+        &:hover{
+          color:#ff6635;
+          transform: translatey(-30%);
+        }
+      }
+    }
+
+    &--menu{
+      .navbar{
+        background-color: #000000;
+        color:white;
+
+        .navbar-brand{
+          font-size: 26px;
+          font-weight: 600;
+          span{
+            color: #ffa46a;
+          }
+        }
+
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              color: #FFFFFF82;
+              font-size: 13px;
+              font-weight: 600;
+              font-family: "Questrial", sans-serif;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              &:hover,&:active{
+                color: white;
+              }
+            }
+            .active{
+              color: white;
+            }
+          }
+        }
+
+        .nav-btn{
+           .btn-primary{
+            font-family: "Questrial", sans-serif;
+            border-radius: 0;
+            background-color:#ff6635;
+            border:none;
+            font-weight: 600;
+            transition: .3s all ease-in-out;
+            font-size: 12px;
+            &:hover{
+              transform: translatey(-30%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer Styling
+.footer-download-app{
+  background-color: #000000;
+  color:white;
+  background-image: url('./assets/images/Poker-MF-4.png');
+  background-position: center center;
+  background-size: cover;
+  padding: 70px 70px 70px 70px;
+  margin-bottom: -160px;
+
+  .overlay-bg{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(320deg, #2A2A2A 0%, #000000 40%);
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+  h4,h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0.5px;
+  }
+  h4{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 36px;
+  }
+  p{
+    font-size: 14px;
+  }
+
+  .btn-download-app{
+    
+    background-color: #ff6635;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 12px;
+    transition: .3s all ease-in-out;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    &:hover{
+      transform: translatey(-30%);
+    }
+  }
+}
+
+footer{
+  background-color: #000000;
+  padding: 260px 0px 20px 0px;
+
+  h4{
+    font-weight: 600;
+    padding-bottom: 20px;
+    span{
+      color: #ffa46a;
+    }
+  }
+  .box-1{
+    width:45%;
+    p{
+      color: #ECECEC;
+      font-size: 14px;
+      padding-right: 90px;
+    }
+  }
+  .box-2{
+    width: 21.33%;
+    .footer-links{
+      line-height: 25px;
+      li {
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .box-3{
+    width: 33.33%;
+    .footer-links{
+      line-height: 25px;
+      li {
+        a{
+          svg{
+            color: #ff6635;
+          }
+
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+          transition: all .3s ease-in-out;
+
+          &:hover{
+            color: #ff6635;
+          }
+        }
+      }
+    }
+  }
+  .footer-copyright{
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #FFFFFF1A;
+    transition: all 400ms;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container{
+      flex-direction: column;
+      .box-1 , .box-2 , .box-3{
+        width: 100%;
+      }
+    }
+    
+  }
+}
