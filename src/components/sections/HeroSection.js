@@ -12,7 +12,7 @@ const HeroSection = () => {
                     <DownloadBtn />
                 </div>
                 <div className="w-50">
-                    <img src={PokerImg} className="img-fluid" alt="Poker Img"/>
+                    <img src={PokerImg} loading="lazy" className="img-fluid" alt="Poker Img"/>
                 </div>
             </div>
         </div>

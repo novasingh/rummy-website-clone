@@ -6,7 +6,7 @@ const AboutSection = () => {
         <div className="about-section">
             <div className="container d-flex flex-column flex-lg-row">
                 <div className="w-50">
-                    <img src={AboutPokerImg} alt="poker-img" className="img-fluid" />
+                    <img src={AboutPokerImg}  loading="lazy"  alt="poker-img" className="img-fluid" />
                 </div>
                 <div className="w-50">
                     <p className="text-orange">ABOUT SKY RUMMY</p>

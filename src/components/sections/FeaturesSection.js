@@ -36,9 +36,9 @@ const FeaturesSection = () => {
                     ))}
                 </div>
                 <div className="features-images mb-4 d-flex flex-wrap flex-column flex-lg-row gap-0 gap-lg-3">
-                    <img src={FeaturesImg1} className="w-30 p-2 p-lg-0"  alt="Piker 1" />
-                    <img src={FeaturesImg2} className="w-30 p-2 p-lg-0" alt="Poker 2" />
-                    <img src={FeaturesImg3} className="w-30 p-2 p-lg-0" alt="Rummy 3" />
+                    <img src={FeaturesImg1} loading="lazy" className="w-30 p-2 p-lg-0"  alt="Piker 1" />
+                    <img src={FeaturesImg2} loading="lazy" className="w-30 p-2 p-lg-0" alt="Poker 2" />
+                    <img src={FeaturesImg3} loading="lazy" className="w-30 p-2 p-lg-0" alt="Rummy 3" />
                 </div>   
             </div>
         </div>
