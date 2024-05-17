@@ -1,5 +1,5 @@
-import { BsArrowRight } from "react-icons/bs";
 import PokerImg from "../../assets/images/istockphoto-628650056-612x612-1.jpg";
+import DownloadBtn from "../DownloadBtn";
 const HeroSection = () => {
     return (
         <div className="hero-section">
@@ -9,7 +9,7 @@ const HeroSection = () => {
                     <h1>MOST TRUSTED ONLINE RUMMY SITE</h1>
                     <p className="text-orange">SKYYEET SOFTWARE TECHNOLOGY PRIVATE LIMITED</p>
                     <p>Our website is one of the most exciting rummy websites to play all kinds of rummy games online. where you can enjoy online rummy with your friends</p>
-                    <button className="btn download-app">Download App <BsArrowRight className="ms-2" /></button>
+                    <DownloadBtn />
                 </div>
                 <div className="w-50">
                     <img src={PokerImg} className="img-fluid" alt="Poker Img"/>

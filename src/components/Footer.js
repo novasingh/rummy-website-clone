@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { BsArrowRight } from "react-icons/bs";
 import { FaMapMarkerAlt, FaPhoneAlt, FaRegBuilding } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import DownloadBtn from "./DownloadBtn";
 
 const Footer = () => {
     return(
@@ -15,7 +15,7 @@ const Footer = () => {
                     <p className="text-center text-lg-start">The Most Trusted & Easy Use Rummy App</p>
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
-                    <button className="btn btn-download-app">Download App <BsArrowRight className="ms-2" /></button>
+                   <DownloadBtn />
                 </div>
             </div>
        </div>
